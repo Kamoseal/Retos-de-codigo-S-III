@@ -1,10 +1,20 @@
 *{
   font-family: 'Montserrat', sans-serif;
 }
-
 main{
   background: linear-gradient(to bottom right, #6B1E7E, #D0077F);
   height: 100vh;
+}
+hr{
+  width: 90%;
+}
+#option{
+  background-color: #FFFFFF;
+  height: 100vh;
+  width: 100vw;
+}
+#btnLeft{
+  background-color:rgba(255,255,255,0.9)
 }
 .lyft-white{
   background-image: url("../assets/images/logo-white.png");
@@ -12,14 +22,36 @@ main{
   background-size: contain;
   background-repeat: no-repeat;
   height: 20rem;
+  margin: 0 auto 0 auto;
   width: 30vh;
-  margin: 0 auto;
 }
 .img-car{
-  background-image: url("../asstes/images/carlyft.jpg");
+  background-image: url("../assets/images/carlyft.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.color-pink{
+  color: #B4077B;
+}
+.nav-sing-up-title{
+  text-align: center;
+  margin: auto;
+}
+.btns-principal{
+  position: absolute;
+  left: 43%;
+  bottom: 0;
+}
+.fa-angle-left:before{
+  font-size: 8rem;
+}
+.countryPhone{
+  width: 90vw;
+}
+#btnLeft:hover{
+  background-color: #FF9EDE;
 }
