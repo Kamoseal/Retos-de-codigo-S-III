@@ -16,6 +16,15 @@ hr{
 #btnLeft{
   background-color:rgba(255,255,255,0.9)
 }
+#getPhone{
+  height: 100vh;
+}
+#verifyNums{
+  border: none;
+}
+.btnLeft{
+  background-color:rgba(255,255,255,0.9)
+}
 .lyft-white{
   background-image: url("../assets/images/logo-white.png");
   background-position: center;
@@ -52,6 +61,16 @@ hr{
 .countryPhone{
   width: 90vw;
 }
+.color-btn{
+  color: #FFFFFF;
+  background-color: #B4077B;
+}
+.btnLeft:hover{
+  background-color: #FF9EDE;
+}
 #btnLeft:hover{
+  background-color: #FF9EDE;
+}
+.color-btn:hover{
   background-color: #FF9EDE;
 }

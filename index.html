@@ -20,34 +20,57 @@
         <button type="button" id="sing" class="m-1 btn-lg btn btn-outline-light">Sing Up</button>
       </div>
     </section>
-    <head id="option" class="container-fluid">
-      <nav class="navbar navbar-expand-xs">
-        <button id="btnLeft" type="button" name="button" class="btn m-1"><span><i class="pr-2 pl-2 fa fa-angle-left color-pink" aria-hidden="true"></i></span></button>
-        <div class="nav-sing-up-title">
-          <h1 class="display-3">Sing Up</h1>
-          <p class="lean">Join now free ride credit</p>
-        </div>
-      </nav>
-      <hr class="my-1">
-    </head>
-      <form class="countryPhone pl-5 ml-5">
-        <div class="row justify-content-center">
-          <select class="col-3 mt-3 custom-select mr-sm-2" id="inlineFormCustomSelect">
-            <option id="option" class="mexico" name="mexico">1</option>
-            <option id="option" class="usa" name="usa">2</option>
-            <option id="option" class="peru" name="peru">3</option>
-          </select>
-            <input id="contryPhone" class="col-7 mt-3 custom-control custom-checkbox mr-sm-2" type="phone" name="phone" maxlength="10" placeholder="Your phone number" pattern="[0-9]{10}">
+    <section id="getPhone">
+      <head id="option" class="container-fluid">
+        <nav class="navbar navbar-expand-xs">
+          <button class="btnLeft" type="button" name="button" class="btn m-1"><span><i class="pr-2 pl-2 fa fa-angle-left color-pink" aria-hidden="true"></i></span></button>
+          <div class="nav-sing-up-title">
+            <h1 class="display-3">Sing Up</h1>
+            <p class="lean">Join now free ride credit</p>
           </div>
+        </nav>
+        <hr class="my-1">
+      </head>
+        <form class="countryPhone pl-5 ml-5">
           <div class="row justify-content-center">
-            <p class="lean text-center col-12 pt-3">We'll send a text to verify your phone</p>
-            <button type="submit" class="col-3 btn color-pink">Next</button>
+            <select class="col-3 mt-3 custom-select mr-sm-2" id="optionS">
+              <option>-</option>
+              <option id="mexico" name="mexico">1</option>
+              <option id="usa" name="usa">2</option>
+              <option id="peru" name="peru">3</option>
+            </select>
+              <input id="contryPhone" class="col-7 mt-3 custom-control custom-checkbox mr-sm-2" type="phone" name="phone" value="" maxlength="12" placeholder="Your phone number" pattern="[0-9]{12}" required>
+            </div>
+            <div class="row justify-content-center">
+              <p class="lean text-center col-12 pt-3">We'll send a text to verify your phone</p>
+              <button type="button" class="col-12 btn color-btn" id="getCode">Next</button>
+            </div>
+        </form>
+    </section>
+    <section id="verifyPhone">
+      <head id="option" class="container-fluid">
+        <nav class="navbar navbar-expand-xs">
+          <button id="btnLeft" type="button" name="button" class="btn m-1"><span><i class="pr-2 pl-2 fa fa-angle-left color-pink" aria-hidden="true"></i></span></button>
+          <div class="nav-sing-up-title">
+            <h1 class="display-5">Verify phone number</h1>
+            <p class="lean">Join now free ride credit</p>
           </div>
-      </form>
+        </nav>
+        <hr class="my-1">
+      </head>
+        <div class="row justify-content-center">
+          <p class="col-12 pt-3 text-center"><b>LAB-</b><input id="verifyNums" type="text" name="verify" value="" maxlength="3" placeholder="_ _ _" pattern="[0-9]{3}" required></p>
+          <p class="col-12 pt-3 text-center">Enter the code set to 52 </p>
+          <button class="col-3 mb-3 btn color-btn" type="button" name="button" id="resendCode">Resend code</button>
+          <button class="col-12 mt-3 btn color-btn" type="button" name="button" disabled>Next</button>
+
+        </div>
+    </section>
 
 
 
-    <!--<button type="button" class="btn btn-outline-light">Light</button>-->
+
+    <!-- -->
 
 
 
