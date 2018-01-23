@@ -25,7 +25,7 @@ $(document).ready(function(){
       $("#contryPhone").val("51");
     }
   });
-
+//generando codigo aleatorio en ambos botones
   $("#getCode, #resendCode").click(function (event){
     event.preventDefault();
     function generateCode() {
@@ -40,20 +40,21 @@ $(document).ready(function(){
     $("#getPhone").slideUp(1000);
   });
 
-  $("#contryPhone").keyUp(function() {
-    if ($(this).val().length!==12){
-        $("#getCode").attr({
-          disabled
-          });
-    }else{
-
-    }
-  })
+  // $("#contryPhone").keyUp(function() {
+  //   if ($(this).val().length!==12){
+  //       $("#getCode").attr({
+  //         disabled
+  //         });
+  //   }else{
+  //
+  //   }
+  // })
 
 })
+//siguiente pagina evento a boton
   $("#btnLeft").click(function(){
     $("#getPhone").slideDown(1000);
-
+//imprime data en input
   $("input[name=verify]").click(function(){
   var data= $("input[data-code]").attr();
   console.log(data);

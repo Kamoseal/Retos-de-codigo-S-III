@@ -1,6 +1,8 @@
+/*estilo general*/
 *{
   font-family: 'Montserrat', sans-serif;
 }
+/*estilo primera seccion*/
 main{
   background: linear-gradient(to bottom right, #6B1E7E, #D0077F);
   height: 100vh;
@@ -8,23 +10,29 @@ main{
 hr{
   width: 90%;
 }
+/*estilo opciones*/
 #option{
   background-color: #FFFFFF;
   height: 100vh;
   width: 100vw;
 }
+/*estilo boton de regresar*/
 #btnLeft{
   background-color:rgba(255,255,255,0.9)
 }
+/*estilo seccion*/
 #getPhone{
   height: 100vh;
 }
+/*quitando border de input*/
 #verifyNums{
   border: none;
 }
+/*boton de regreso estilo*/
 .btnLeft{
   background-color:rgba(255,255,255,0.9)
 }
+/*fondo primera seccion*/
 .lyft-white{
   background-image: url("../assets/images/logo-white.png");
   background-position: center;
@@ -34,6 +42,7 @@ hr{
   margin: 0 auto 0 auto;
   width: 30vh;
 }
+/*fondo segunda seccion*/
 .img-car{
   background-image: url("../assets/images/carlyft.jpg");
   background-position: center;
@@ -43,28 +52,35 @@ hr{
   width: 100vw;
   position: relative;
 }
+/*color de letra*/
 .color-pink{
   color: #B4077B;
 }
+/*estilo navegacion*/
 .nav-sing-up-title{
   text-align: center;
   margin: auto;
 }
+/*posicionamiento de botones sing up*/
 .btns-principal{
   position: absolute;
   left: 43%;
   bottom: 0;
 }
+/*estilo icono*/
 .fa-angle-left:before{
   font-size: 8rem;
 }
+/*vista seccion*/
 .countryPhone{
   width: 90vw;
 }
+/*color boton*/
 .color-btn{
   color: #FFFFFF;
   background-color: #B4077B;
 }
+/*hover a botones*/
 .btnLeft:hover{
   background-color: #FF9EDE;
 }
